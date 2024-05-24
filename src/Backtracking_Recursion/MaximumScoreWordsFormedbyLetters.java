@@ -23,7 +23,7 @@ public class MaximumScoreWordsFormedbyLetters {
          solve(0,score,words,0,freq);
 
 
-        return maxVal;
+        return maxScore;
     }
 
     public static void solve(int i, int[] score, String[] words, int currScore , int[] freq) {
