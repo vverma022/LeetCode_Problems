@@ -38,7 +38,7 @@ public class StudentAttendenceRecordII {
         int L = recur(n-1, absents, consecutiveLate+1) % M;
         int P = recur(n-1, absents, 0) % M;
 
-        return dp[n][absents][consecutiveLate] = (A + L + P) % M;
+        return dp[n][absents][consecutiveLate] = ((A + L) % M + P) % M;
 
     }
 }
