@@ -16,9 +16,6 @@ public class NumberofStepstoReduceaNumber {
                 carry = 1;
                 count += 2;
         } else {
-            if(carry == 1){
-                count++;
-            }
             count++;
         }
     }
