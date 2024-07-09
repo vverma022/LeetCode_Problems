@@ -2,6 +2,8 @@ package ArraysHashMap;
 
 public class AverageWatingTime {
     public static void main(String[] args) {
+        int[][] customers = {{1,2},{2,5},{4,3}};
+        System.out.println(averageWaitingTime(customers));
 
     }
     public static double averageWaitingTime(int[][] customers) {
